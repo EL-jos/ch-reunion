@@ -31,6 +31,40 @@ Route::get('/', function () {
 Route::controller(PageController::class)->group(function () {
 
     Route::get('/accueil', 'home')->name('home.page');
+
+    Route::prefix('cuisines')->group(function () {
+        Route::get('/cuisine-sur-mesure-reunion/', 'cuisine_sur_mesure_reunion')->name('cuisine_sur_mesure_reunion.page');
+        Route::get('/cuisine-moderne-reunion/', 'cuisine_moderne_reunion')->name('cuisine_moderne_reunion.page');
+        Route::get('/cuisine-ilot-central-reunion/', 'cuisine_ilot_central_reunion')->name('cuisine_ilot_central_reunion.page');
+        Route::get('/cuisine-petit-espace-reunion/', 'cuisine_petit_espace_reunion')->name('cuisine_petit_espace_reunion.page');
+        Route::get('/prix-cuisine-equipee-reunion/', 'prix_cuisine_equipee_reunion')->name('prix_cuisine_equipee_reunion.page');
+        Route::get('/matériaux-cuisine-reunion/', 'matériaux_cuisine_reunion')->name('matériaux_cuisine_reunion.page');
+        Route::get('/plan-de-travail-cuisine-reunion/', 'plan_de_travail_cuisine_reunion')->name('plan_de_travail_cuisine_reunion.page');
+    });
+
+    Route::prefix('dressings')->group(function () {
+        Route::get('/dressing-sur-mesure-reunion/', 'dressing_sur_mesure_reunion')->name('dressing_sur_mesure_reunion.page');
+        Route::get('/dressing-petit-espace-reunion/', 'dressing_petit_espace_reunion')->name('dressing_petit_espace_reunion.page');
+        Route::get('/amenagement-placard-reunion/', 'amenagement_placard_reunion')->name('amenagement_placard_reunion.page');
+    });
+
+    Route::prefix('cuisiniste-a-la-reunion')->group(function () {
+        Route::get("/", "nos_magasins")->name("nos_magasins.page");
+        Route::get("/cuisiniste-{storeId}", "nos_magasins")->name("nos_magasins.show");
+    });
+
+    Route::prefix('conseils-et-inspirations')->group(function () {
+        Route::get("/blog-cuisine-reunion/", "blog_cuisine_reunion")->name("blog_cuisine_reunion.page");
+        Route::get("/choisir-cuisine-reunion/", "choisir_cuisine_reunion")->name("choisir_cuisine_reunion.page");
+        Route::get("/cuisine-ouverte-ou-fermée/", "cuisine_ouverte_ou_fermée")->name("cuisine_ouverte_ou_fermée.page");
+        Route::get("/budget-cuisine-équipée-reunion/", "budget_cuisine_équipée_reunion")->name("budget_cuisine_équipée_reunion.page");
+        Route::get("/couleurs-cuisine-tendance/", "couleurs_cuisine_tendance")->name("couleurs_cuisine_tendance.page");
+        Route::get("/optimiser-espace-cuisine/", "optimiser_espace_cuisine")->name("optimiser_espace_cuisine.page");
+    });
+
+    Route::get('/destockage-cuisine-reunion/', 'destockage_cuisine_reunion')->name('destockage_cuisine_reunion.page');
+
+
     Route::get('/dressing-sur-mesure', 'dressing')->name('dressing.page');
     Route::get('/qui-sommes-nous-a-la-reunion', 'about')->name('about.page');
 
@@ -78,10 +112,7 @@ Route::controller(PageController::class)->group(function () {
     Route::get('/promotion-immobiliere', 'promoteur_immobilier')->name('promoteur_immobilier.page');
 
     //Route::get("/nos-magasins-literie-a-la-reunion", "nos_magasins")->name("nos_magasins.page");
-    Route::prefix('nos-magasins-literie-a-la-reunion')->group(function () {
-        Route::get("/", "nos_magasins")->name("nos_magasins.page");
-        Route::get("/{storeId}", "nos_magasins")->name("nos_magasins.show");
-    });
+
 
     Route::match(['GET', 'POST'], '/landing', 'landing')->name('landing.page');
 });

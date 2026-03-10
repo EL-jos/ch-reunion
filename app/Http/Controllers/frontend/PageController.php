@@ -148,7 +148,7 @@ class PageController extends Controller
             case "saint-andre":
                 return view('frontend.pages.stores.show', ['storeId' => $storeId]);
                 break;
-            case "tampon":
+            case "le-tampon":
                 return view('frontend.pages.stores.show', ['storeId' => $storeId]);
                 break;
             default:

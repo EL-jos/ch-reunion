@@ -93,47 +93,56 @@
                         <div class="collapse navbar-collapse main-menu">
                             <div class="nav-menu-wrapper">
                                 <ul class="navbar-nav mr-auto" id="menu">
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('home.page') }}">accueil</a></li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="{{ route('home.page') }}">accueil</a>
+                                    </li>
+                                    <li class="nav-item submenu">
+                                        <a class="nav-link" href="javascript:;">Cuisines</a>
+                                        <ul>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('cuisine_sur_mesure_reunion.page') }}">Cuisine sur mesure</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('cuisine_moderne_reunion.page') }}">Cuisine moderne </a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('cuisine_ilot_central_reunion.page') }}">Cuisine avec îlot central</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('cuisine_petit_espace_reunion.page') }}">Cuisine petit espace</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('prix_cuisine_equipee_reunion.page') }}">Prix cuisine équipée</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('matériaux_cuisine_reunion.page') }}">Matériaux cuisine</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('plan_de_travail_cuisine_reunion.page') }}">Plans de travail</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item submenu">
+                                        <a class="nav-link" href="javascript:;">Dressings</a>
+                                        <ul>
+                                            <li class="nav-item"><a href="{{ route('dressing_sur_mesure_reunion.page') }}">Dressing sur mesure</a></li>
+                                            <li class="nav-item"><a href="{{ route('dressing_petit_espace_reunion.page') }}">Dressing petit espace</a></li>
+                                            <li class="nav-item"><a href="{{ route('amenagement_placard_reunion.page') }}">Aménagement placard</a></li>
+                                        </ul>
+                                    </li>
                                     <li class="nav-item submenu">
                                         <a class="nav-link" href="{{ route('nos_magasins.page') }}">Nos magasins</a>
                                         <ul>
                                             <li class="nav-item"><a class="nav-link" href="{{ route('nos_magasins.show', ['storeId' => "saint-denis"]) }}">Cuisiniste à Saint-Denis</a></li>
                                             <li class="nav-item"><a class="nav-link" href="{{ route('nos_magasins.show', ['storeId' => "saint-louis"]) }}">Cuisiniste à Saint-Louis</a></li>
                                             <li class="nav-item"><a class="nav-link" href="{{ route('nos_magasins.show', ['storeId' => "saint-andre"]) }}">Cuisiniste à Saint-André</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="{{ route('nos_magasins.show', ['storeId' => "tampon"]) }}">Cuisiniste au Tampon</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('nos_magasins.show', ['storeId' => "le-tampon"]) }}">Cuisiniste au Tampon</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item submenu"><a class="nav-link" href="javascript:;">cuisine</a>
+                                    <li class="nav-item submenu">
+                                        <a class="nav-link" href="javascript:;">Inspirations</a>
                                         <ul>
-                                            <li class="nav-item">
-                                                <a class="nav-link d-flex justify-content-between align-items-center" href="javascript:;">matières et couleurs <i class="fa-solid fa-chevron-right"></i></a>
-                                                <ul>
-                                                    <li class="nav-item"><a class="nav-link" href="{{ route('nuancier_de_facades.page') }}">Nuancier des façades</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="{{ route('nuancier_en_ceramique.page') }}">Nuancier en céramique</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="{{ route('nuancier_hpl.page') }}">Nuancier HPL</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a class="nav-link d-flex justify-content-between align-items-center" href="javascript:;">Equipements <i class="fa-solid fa-chevron-right"></i></a>
-                                                <ul>
-                                                    <li class="nav-item"><a class="nav-link" href="{{ route('nuancier_hpl.page') }}">Plan de travail</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="{{ route('evier_granit_3_dimensions.page') }}">Evier granit 3 dimensions</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="{{ route('electromenager.page') }}">Electroménager</a></li>
-                                                    <li class="nav-item"><a class="nav-link" href="{{ route('solutions_de_rangement.page') }}">Solutions de rangement</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item"><a class="nav-link" href="{{ route('votre_projet_en_3_etapes.page') }}">votre projet en 3 étapes</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('choisir_cuisine_reunion.page') }}">Comment choisir sa cuisine</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('cuisine_ouverte_ou_fermée.page') }}">Cuisine ouverte ou fermée</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('budget_cuisine_équipée_reunion.page') }}">Budget cuisine équipée</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('couleurs_cuisine_tendance.page') }}">Couleurs tendance cuisine</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('optimiser_espace_cuisine.page') }}">Optimiser l’espace cuisine</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('blog_cuisine_reunion.page') }}">Blog cuisine</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('dressing.page') }}">dressing</a></li>
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('promoteur_immobilier.page') }}">promoteur immobilier</a></li>
-                                    {{--<li class="nav-item"><a class="nav-link" href="{{ route('gallery.page') }}">Réalisations</a></li>--}}
-                                    <li class="nav-item"><a class="nav-link" href="{{ route('blogs.page') }}">Conseils</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="{{ route('destockage_cuisine_reunion.page') }}">Déstockage</a></li>
+                                    <li id="el-show-mobile" class="nav-item"><a class="nav-link" href="{{ route('contact.page') }}">Devis gratuit</a></li>
                                 </ul>
                             </div>
                             <!-- Header Btn Start -->
                             <div class="header-btn d-inline-flex">
-                                <a href="{{ route('contact.page') }}" class="btn-default">Contact</a>
+                                <a href="{{ route('contact.page') }}" class="btn-default">Devis gratuit</a>
                             </div>
                             <!-- Header Btn End -->
                         </div>

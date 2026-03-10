@@ -276,6 +276,9 @@ body.ui-dialog-open {
     div[class^="el-grid-hpl-"] .el-card{
         gap: 1rem;
     }
+    #el-show-mobile{
+        display: none;
+    }
 }
 @media all and (min-width: 1200px) {
     .el-grid-hpl-two{
