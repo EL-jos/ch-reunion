@@ -1,0 +1,299 @@
+.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between{
+    display: none;
+}
+.flex.justify-between.flex-1.sm\:hidden{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.breadcrumb-item + .breadcrumb-item::before{
+    content: '/';
+}
+
+.post-entry img{
+    width: fit-content;
+    margin: 0 auto !important;
+}
+
+div[class^="el-grid-hpl-"] .el-card{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    width: 100%;
+}
+div[class^="el-grid-hpl-"] .el-boxImg{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+}
+div[class^="el-grid-hpl-"] img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+div[class^="el-grid-hpl-"] span{
+    font-size: .8rem;
+    text-transform: capitalize;
+    color: #000;
+}
+div[class^="el-grid-hpl-"]{
+    margin: 0 auto 1rem;
+    display: grid;
+    gap: 1rem;
+}
+.el-grid-hpl-one{
+    max-width: 800px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/**
+
+ */
+.el-grid-evier-granit{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+[class^="el-grid-gallery-"]{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 4rem;
+}
+.el-grid-gallery-three img{
+    width: 100%;
+}
+.el-grid-gallery-three{
+    grid-template-columns: repeat(auto-fit, minmax(343px, 1fr));
+}
+
+.page-gallery #el-grid-flex{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 2rem
+}
+.page-gallery #el-grid-flex .el-row{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #e0e0e0;
+}
+.page-gallery #el-grid-flex .el-row:nth-child(even){
+    flex-direction: column-reverse;
+    background-color: transparent;
+}
+#el-grid-flex .el-row .el-bg-img{
+    aspect-ratio: 9 / 6;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+#el-grid-flex .el-row .el-content{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+#el-grid-flex .el-content *{
+    margin: 0;
+}
+#el-grid-flex .el-content h3{
+    position: relative;
+}
+#el-grid-flex .el-content h3::before{
+    position: absolute;
+    content: '';
+    width: 30%;
+    height: 3px;
+    background: #000;
+    left: 0;
+    bottom: -10px;
+    display: none;
+}
+#el-grid-flex .el-content a{
+    padding: .5rem 1rem;
+    width: fit-content;
+    text-decoration: none;
+    color: #fff;
+    background: #000;
+    border-radius: 2rem;
+    font-size: .9rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .15);
+}
+
+.navbar{
+    padding: 0;
+}
+.navbar-brand img{
+    width: 170px;
+}
+
+.hero-content .section-title p{
+    display: none;
+}
+
+#el-grid-maps{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.el-container-store-map{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem;
+    background: rgba(240, 242, 245,.5);
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+.el-container-store-map:first-of-type{
+    /*margin-bottom: 1.5rem;*/
+}
+.el-container-store-map iframe{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+    border-radius: 10px;
+}
+.el-container-store-map ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.el-container-store-map ul p{
+    text-align: center;
+}
+.ui-dialog {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+body.ui-dialog-open {
+    overflow: hidden;
+}
+
+@media all and (min-width: 485px) {
+    .el-grid-hpl-one{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .el-grid-hpl-two{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media all and (min-width: 575px){
+    #el-grid-maps{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+@media all and (min-width: 768px) {
+    .el-grid-hpl-one{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .el-grid-hpl-two{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .el-grid-evier-granit{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .el-grid-gallery-one{
+        gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .el-grid-gallery-two{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "zone1 zone2"
+                             "zone3 zone2";
+        gap: 2rem;
+    }
+    .el-grid-gallery-two img{
+        width: 100%;
+    }
+    .el-grid-gallery-two img:nth-child(1){
+        grid-area: zone1;
+    }
+    .el-grid-gallery-two img:nth-child(2){
+        grid-area: zone2;
+    }
+    .el-grid-gallery-two img:nth-child(3){
+        grid-area: zone3;
+    }
+    .page-gallery #el-grid-flex .el-row{
+        flex-direction: row;
+    }
+    .page-gallery #el-grid-flex .el-row:nth-child(even){
+        flex-direction: row-reverse;
+    }
+    #el-grid-flex .el-row .el-bg-img,
+    #el-grid-flex .el-row .el-content{
+        width: 50%;
+    }
+    .page-gallery #el-grid-flex{
+        gap: 0;
+    }
+    #el-grid-flex .el-content h3::before{
+        display: block;
+        width: 18%;
+    }
+    #el-grid-flex .el-content h3{
+        margin-bottom: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+@media all and (min-width: 992px) {
+    div[class^="el-grid-hpl-"]{
+        margin: 4rem auto;
+    }
+    .el-grid-hpl-one{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .el-grid-hpl-two{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    div[class^="el-grid-hpl-"] .el-card{
+        gap: 1rem;
+    }
+}
+@media all and (min-width: 1200px) {
+    .el-grid-hpl-two{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .el-grid-evier-granit{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .navbar-brand img{
+        width: 170px;
+    }
+    .hero-content .section-title p{
+        display: block;
+    }
+}
+
+@media all and (min-width: 1366px) {
+    #el-grid-maps{
+        gap: 2rem;
+    }
+}

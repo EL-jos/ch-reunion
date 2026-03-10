@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Redirection vers le dossier public
+    RewriteRule ^(.*)$ public/$1 [L]
+
+    # Gestion des erreurs 404
+    ErrorDocument 404 /index.php
+</IfModule>
