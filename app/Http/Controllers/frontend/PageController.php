@@ -21,6 +21,10 @@ class PageController extends Controller
         ]);
     }
 
+    public function cuisine_sur_mesure_reunion(){
+        return view('frontend.pages.cuisines.cuisine_sur_mesure_reunion');
+    }
+
     public function dressing(){
         return view('frontend.pages.dressing');
     }
