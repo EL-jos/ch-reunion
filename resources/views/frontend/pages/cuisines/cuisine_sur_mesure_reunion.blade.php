@@ -5,6 +5,7 @@
     <title>Cuisine sur mesure à La Réunion | Cuisine Habitat</title>
     <meta name="description" content="Cuisine Habitat conçoit votre cuisine sur mesure à La Réunion. Conception personnalisée, matériaux de qualité, pose soignée et devis gratuit.">
     <meta name="keywords" content="">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
     <style>
         #el-grid{
             column-count: 1;          /* nombre de colonnes desktop */
@@ -39,11 +40,11 @@
                 column-count: 3;          /* nombre de colonnes desktop */
             }
         }
-        @media all and (min-width: 1400px) {
+        /*@media all and (min-width: 1400px) {
             #el-grid{
-                column-count: 3;          /* nombre de colonnes desktop */
+                column-count: 4;          /* nombre de colonnes desktop
             }
-        }
+        }*/
     </style>
 @endsection
 
@@ -60,7 +61,7 @@
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ route('home.page') }}}">Accueil</a></li>
-                                <li class="breadcrumb-item" aria-current="page">Nos magasins</li>
+                                <li class="breadcrumb-item" aria-current="page">Cuisines</li>
                                 <li class="breadcrumb-item active" aria-current="page">Cuisine sur mesure à La Réunion</li>
                             </ol>
                         </nav>
@@ -71,6 +72,7 @@
         </div>
     </div>
     <!-- Page Header End -->
+
     <div style="padding-bottom: 0" class="page-service-single">
         <div class="container">
             <div class="row">
@@ -108,6 +110,20 @@
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
                                 Enfin, cette solution améliore l’ergonomie de votre cuisine. Les zones de préparation, de cuisson et de rangement sont organisées de manière logique afin de faciliter votre quotidien.
                             </p>
+                            <div id="el-grid">
+                                @php
+                                    $range = 3
+                                @endphp
+                                @foreach(range(1, $range) as $index)
+                                    <div>
+                                        <a href="{{ asset('assets/images/cuisines/sur_mesure/'. $index . '.png') }}"
+                                           data-lightbox="store-gallery"
+                                           data-title="Cuisine Habitat Saint-Denis" title="Cuisine sur-mesure">
+                                            <img src="{{ asset('assets/images/cuisines/sur_mesure/'. $index . '.png') }}" alt="Cuisine sur-mesure" title="Cuisine sur-mesure">
+                                        </a>
+                                    </div>
+                                @endforeach
+                            </div>
                             <h2 class="text-anime-style-2" data-cursor="-opaque">Comment se déroule votre projet chez <span>Cuisine Habitat ?</span> </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
                                 La création d’une cuisine sur mesure suit plusieurs étapes afin de garantir un résultat parfaitement adapté à votre projet.
@@ -242,24 +258,17 @@
                                 <!-- FAQ Accordion End -->
                             </div>
                             <!-- FAQs section End -->
-                            <div id="el-grid">
-                                @php
-                                $range = 3
-                                @endphp
-                                @foreach(range(1, $range) as $index)
-                                    <div>
-                                        <a href="{{ asset('assets/images/cuisines/sur_mesure/'. $index . '.png') }}"
-                                           data-lightbox="store-gallery"
-                                           data-title="Cuisine Habitat Saint-Denis" title="Cuisine sur-mesure">
-                                            <img src="{{ asset('assets/images/cuisines/sur_mesure/'. $index . '.png') }}" alt="Cuisine sur-mesure" title="Cuisine sur-mesure">
-                                        </a>
-                                    </div>
-                                @endforeach
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+@endsection
+
+
+@section('scripts')
+    @parent
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 @endsection

@@ -104,7 +104,7 @@
                                             <li class="nav-item"><a class="nav-link" href="{{ route('cuisine_ilot_central_reunion.page') }}">Cuisine avec îlot central</a></li>
                                             <li class="nav-item"><a class="nav-link" href="{{ route('cuisine_petit_espace_reunion.page') }}">Cuisine petit espace</a></li>
                                             <li class="nav-item"><a class="nav-link" href="{{ route('prix_cuisine_equipee_reunion.page') }}">Prix cuisine équipée</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="{{ route('matériaux_cuisine_reunion.page') }}">Matériaux cuisine</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="{{ route('materiaux_cuisine_reunion.page') }}">Matériaux cuisine</a></li>
                                             <li class="nav-item"><a class="nav-link" href="{{ route('plan_de_travail_cuisine_reunion.page') }}">Plans de travail</a></li>
                                         </ul>
                                     </li>

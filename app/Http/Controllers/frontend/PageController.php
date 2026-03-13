@@ -25,6 +25,30 @@ class PageController extends Controller
         return view('frontend.pages.cuisines.cuisine_sur_mesure_reunion');
     }
 
+    public function cuisine_moderne_reunion(){
+        return view('frontend.pages.cuisines.cuisine_moderne_reunion');
+    }
+
+    public function cuisine_ilot_central_reunion(){
+        return view('frontend.pages.cuisines.cuisine_ilot_central_reunion');
+    }
+
+    public function cuisine_petit_espace_reunion(){
+        return view('frontend.pages.cuisines.cuisine_petit_espace_reunion');
+    }
+
+    public function prix_cuisine_equipee_reunion(){
+        return view('frontend.pages.cuisines.prix_cuisine_equipee_reunion');
+    }
+
+    public function materiaux_cuisine_reunion(){
+        return view('frontend.pages.cuisines.materiaux_cuisine_reunion');
+    }
+
+    public function plan_de_travail_cuisine_reunion(){
+        return view('frontend.pages.cuisines.plan_de_travail_cuisine_reunion');
+    }
+
     public function dressing(){
         return view('frontend.pages.dressing');
     }

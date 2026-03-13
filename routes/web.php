@@ -38,7 +38,7 @@ Route::controller(PageController::class)->group(function () {
         Route::get('/cuisine-ilot-central-reunion/', 'cuisine_ilot_central_reunion')->name('cuisine_ilot_central_reunion.page');
         Route::get('/cuisine-petit-espace-reunion/', 'cuisine_petit_espace_reunion')->name('cuisine_petit_espace_reunion.page');
         Route::get('/prix-cuisine-equipee-reunion/', 'prix_cuisine_equipee_reunion')->name('prix_cuisine_equipee_reunion.page');
-        Route::get('/matériaux-cuisine-reunion/', 'matériaux_cuisine_reunion')->name('matériaux_cuisine_reunion.page');
+        Route::get('/materiaux-cuisine-reunion/', 'materiaux_cuisine_reunion')->name('materiaux_cuisine_reunion.page');
         Route::get('/plan-de-travail-cuisine-reunion/', 'plan_de_travail_cuisine_reunion')->name('plan_de_travail_cuisine_reunion.page');
     });
 

@@ -2,8 +2,8 @@
 
 @section('heads')
     @parent
-    <title>Cuisine petit espace à La Réunion</title>
-    <meta name="description" content="Découvrez nos solutions pour aménager une cuisine dans un petit espace à La Réunion : rangements, circulation, meubles adaptés.">
+    <title>Matériaux cuisine à La Réunion</title>
+    <meta name="description" content="">
     <meta name="keywords" content="">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
     <style>
@@ -49,7 +49,6 @@
 @endsection
 
 @section('main-content')
-
     <!-- Page Header Start -->
     <div class="page-header parallaxie">
         <div class="container">
@@ -57,12 +56,12 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque">Cuisine petit espace à La Réunion</h1>
+                        <h1 class="text-anime-style-2" data-cursor="-opaque">Matériaux cuisine à La Réunion</h1>
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="{{ route('home.page') }}}">Accueil</a></li>
                                 <li class="breadcrumb-item" aria-current="page">Cuisines</li>
-                                <li class="breadcrumb-item active" aria-current="page">Cuisine petit espace à La Réunion</li>
+                                <li class="breadcrumb-item active" aria-current="page">Matériaux cuisine à La Réunion</li>
                             </ol>
                         </nav>
                     </div>
@@ -84,131 +83,120 @@
                             <!-- Section Title Start -->
 
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Aménager une cuisine dans un petit espace peut représenter un véritable défi. À La Réunion,
-                                de nombreux appartements et certaines maisons disposent de cuisines compactes qui nécessitent une conception intelligente pour être à la fois pratiques et esthétiques.
+                                Le choix des matériaux est une étape essentielle dans la conception d’une cuisine.
+                                À La Réunion, les matériaux doivent être à la fois esthétiques, résistants et adaptés au climat tropical.
                             </p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Une cuisine bien conçue permet pourtant d’exploiter chaque centimètre et de créer un espace agréable à utiliser au quotidien.
-                                Grâce à des meubles adaptés, des rangements optimisés et une organisation efficace,
-                                même une petite cuisine peut devenir fonctionnelle et conviviale.
+                                Les façades, les plans de travail et les finitions jouent un rôle important dans le style et la durabilité de la cuisine.
+                                Certains matériaux sont privilégiés pour leur résistance à l’humidité, à la chaleur ou aux chocs.
                             </p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Chez Cuisine Habitat, nous concevons des cuisines pour petits espaces à La Réunion en tenant compte des contraintes de chaque logement.
-                                Notre objectif est de transformer une cuisine compacte en un espace pratique, ergonomique et harmonieux.
+                                Chez Cuisine Habitat, nous proposons une large sélection de matériaux pour cuisine à La Réunion afin de créer une cuisine durable et parfaitement adaptée à votre intérieur.
                                 <br>
-                                <a href="{{ route('contact.page') }}">Parlez de votre projet avec un conseiller</a>
+                                <a href="{{ route('contact.page') }}">Demandez votre devis cuisine gratuit</a>
                             </p>
 
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Comment aménager une <span>petite cuisine intelligemment ?</span> </h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Quels matériaux choisir pour une <span>cuisine durable ?</span> </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Dans une petite cuisine, chaque élément doit être pensé pour optimiser l’espace.
-                                L’organisation de la pièce est essentielle afin de garantir une circulation fluide et un confort d’utilisation.
+                                Une cuisine est utilisée quotidiennement.
+                                Il est donc important de choisir des matériaux capables de résister aux contraintes du quotidien.
                             </p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                L’une des solutions consiste à privilégier des meubles adaptés aux dimensions de la pièce.
-                                Les meubles hauts permettent par exemple d’exploiter la hauteur des murs et d’augmenter les espaces de rangement.
+                                Les plans de travail doivent être solides et faciles à entretenir.
+                                Les matériaux comme le quartz, la céramique ou le granit sont souvent privilégiés pour leur résistance aux chocs et à la chaleur.
                             </p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Il est également important d’organiser les différentes zones de travail : préparation, cuisson et rangement.
-                                Une disposition logique facilite les déplacements et améliore l’efficacité dans la cuisine.
+                                Les façades de cuisine peuvent être réalisées dans différents matériaux comme le bois, le stratifié ou les surfaces laquées.
+                                Chaque matériau possède ses propres caractéristiques en termes d’esthétique et d’entretien.
+                            </p>
+
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Le choix dépend également du style recherché.
+                                Une cuisine moderne privilégiera souvent des surfaces lisses et des couleurs neutres, tandis qu’une cuisine plus chaleureuse pourra intégrer des éléments en bois.
                             </p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Dans certains cas, une conception sur mesure peut être la meilleure solution pour optimiser chaque centimètre de la pièce.
-                                Découvrez également nos solutions de <a href="{{ route('cuisine_sur_mesure_reunion.page') }}">Cuisine sur mesure à la réunion</a>
+                                Pour découvrir différents styles d’aménagement, consultez aussi notre page sur la <a href="{{ route('cuisine_moderne_reunion.page') }}">Cuisine moderne à la réunion</a>
+                            </p>
+
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Les façades de cuisine : <span>styles et finitions</span> </h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Les façades sont l’un des éléments les plus visibles d’une cuisine.
+                                Elles jouent un rôle important dans l’esthétique générale de la pièce.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Plusieurs types de finitions existent :
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Les façades brillantes apportent de la luminosité et donnent un aspect contemporain à la cuisine.
                             </p>
 
                             <div id="el-grid">
                                 @php
-                                    $range = 4
+                                    $range = 9
                                 @endphp
                                 @foreach(range(1, $range) as $index)
                                     <div>
-                                        <a href="{{ asset('assets/images/cuisines/petit_espace/'. $index . '.jpg') }}"
+                                        <a href="{{ asset('assets/images/cuisines/materiaux/'. $index . '.jpg') }}"
                                            data-lightbox="store-gallery"
                                            data-title="Cuisine Habitat Saint-Denis" title="Cuisine sur-mesure">
-                                            <img src="{{ asset('assets/images/cuisines/petit_espace/'. $index . '.jpg') }}" alt="Cuisine sur-mesure" title="Cuisine sur-mesure">
+                                            <img src="{{ asset('assets/images/cuisines/materiaux/'. $index . '.jpg') }}" alt="Cuisine sur-mesure" title="Cuisine sur-mesure">
                                         </a>
                                     </div>
                                 @endforeach
                             </div>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Quels meubles choisir pour gagner de la <span>place</span> </h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Matériaux adaptés au climat de La Réunion </h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Dans une cuisine compacte, le choix du mobilier joue un rôle essentiel.
+                                Le climat tropical de La Réunion peut influencer le choix des matériaux de cuisine.
+                                L’humidité et les variations de température doivent être prises en compte lors de la conception de la cuisine.
                             </p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Les meubles multifonctions sont particulièrement utiles dans les petits espaces.
-                                Certains meubles peuvent par exemple intégrer plusieurs rangements ou être utilisés comme plan de travail supplémentaire.
+                                Certains matériaux sont particulièrement adaptés à ces conditions.
                             </p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Les tiroirs coulissants permettent également d’accéder facilement aux ustensiles et aux accessoires de cuisine tout en optimisant l’espace disponible.
+                                Les surfaces HPL sont connues pour leur résistance à l’humidité et aux chocs.
+                                Elles sont souvent utilisées pour les plans de travail et les façades.
                             </p>
                             <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Les meubles d’angle sont une autre solution efficace pour exploiter les zones difficiles d’accès.
-                                Ils permettent d’utiliser des espaces souvent inutilisés dans une cuisine classique.
+                                La céramique est également très résistante aux températures élevées et aux rayures.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Les matériaux de qualité permettent de garantir la durabilité de la cuisine tout en conservant un design moderne.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Pour concevoir une cuisine adaptée à votre intérieur, découvrez aussi notre page sur la <a href="{{ route('cuisine_sur_mesure_reunion.page') }}">Cuisine sur-mesure</a>
+                            </p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Comment choisir les matériaux pour votre projet cuisine ? </h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Le choix des matériaux dépend de plusieurs critères.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Tout d’abord, il est important de prendre en compte l’utilisation quotidienne de la cuisine.
+                                Une famille nombreuse aura par exemple besoin de surfaces particulièrement résistantes.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Le style de la cuisine joue également un rôle important.
+                                Certains matériaux s’intègrent mieux dans une cuisine moderne tandis que d’autres conviennent davantage à un style plus traditionnel.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Enfin, le budget peut également influencer le choix des matériaux.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Pour découvrir les possibilités d’aménagement et obtenir des conseils personnalisés,
+                                vous pouvez rencontrer nos équipes dans notre showroom : <a href="{{ route('nos_magasins.show', ['storeId' => "saint-denis"]) }}">à Saint-Denis</a>
+                            </p>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque">Demandez votre devis <span>cuisine gratuit</span> </h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Chaque cuisine est unique. Le choix des matériaux dépend de votre espace, de vos préférences esthétiques et de votre budget.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.2s">
+                                Nos concepteurs vous accompagnent afin de choisir les matériaux les plus adaptés à votre projet.
                                 <br>
-                                Pour découvrir différents styles de cuisines adaptés aux petits espaces, consultez aussi notre page sur les <a href="{{ route('cuisine_moderne_reunion.page') }}">Cuisines modernes</a>
-                            </p>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Rangements et astuces pour <span>optimiser l’espace</span> </h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                L’optimisation des rangements est l’un des éléments clés dans l’aménagement d’une petite cuisine.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Les étagères ouvertes peuvent être utilisées pour ranger les objets du quotidien tout en créant une impression d’espace.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Les accessoires de rangement, comme les séparateurs de tiroirs ou les systèmes coulissants,
-                                permettent également d’organiser efficacement les ustensiles.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Il est aussi possible d’utiliser les murs pour installer des barres de suspension ou des étagères afin de libérer de l’espace sur le plan de travail.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Dans certaines configurations, un petit îlot ou une table escamotable peut également apporter une surface de travail supplémentaire.
-                                <br>
-                                Découvrez aussi nos cuisines avec <a href="{{ route('cuisine_ilot_central_reunion.page') }}">Cuisine ilot central</a>
-                            </p>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Quelles couleurs et finitions pour agrandir <span>visuellement ?</span> </h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Les couleurs jouent un rôle important dans la perception de l’espace.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Dans une petite cuisine, il est souvent conseillé de privilégier des couleurs claires comme le blanc,
-                                le beige ou le gris clair. Ces teintes reflètent la lumière et donnent une impression de volume.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Les surfaces brillantes ou laquées peuvent également contribuer à agrandir visuellement la pièce.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                L’éclairage est un autre élément essentiel. Un éclairage bien pensé permet de mettre en valeur les différentes zones de la cuisine tout en créant une ambiance agréable.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Enfin, les matériaux naturels comme le bois peuvent apporter une touche chaleureuse sans alourdir l’espace.
-                            </p>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque">Nos solutions sur mesure pour les <span>petits espaces</span> </h2>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Chaque petite cuisine possède ses propres contraintes. C’est pourquoi une conception personnalisée peut être la meilleure solution pour optimiser l’espace.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Chez Cuisine Habitat, nous concevons des cuisines adaptées aux petits espaces en tenant compte de plusieurs éléments :
-                            </p>
-                            <div class="about-us-content-list wow fadeInUp" data-wow-delay="0.4s">
-                                <ul>
-                                    <li>La configuration de la pièce</li>
-                                    <li>Les besoins de rangement</li>
-                                    <li>Les habitudes de vie</li>
-                                    <li>Le budget du projet</li>
-                                </ul>
-                            </div>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Grâce à notre expertise, nous pouvons imaginer des solutions pratiques qui permettent d’exploiter chaque zone de la cuisine.
-                            </p>
-                            <p class="wow fadeInUp" data-wow-delay="0.2s">
-                                Pour connaître le budget d’un projet cuisine, consultez également notre guide : <a href="{{ route('prix_cuisine_equipee_reunion.page') }}">Prix cuisine équipée à la réunion</a>
+                                <a href="{{ route('contact.page') }}">Demandez votre devis cuisine gratuit</a>
                             </p>
                             <!-- FAQs section start -->
                             <div class="our-faq-section page-faq-accordion" id="general_information">
                                 <div class="section-title">
-                                    <h2 class="text-anime-style-2" data-cursor="-opaque">Questions fréquentes sur les cuisines petit espace</h2>
+                                    <h2 class="text-anime-style-2" data-cursor="-opaque">Questions fréquentes sur les matériaux de cuisine</h2>
                                 </div>
                                 <!-- FAQ Accordion Start -->
                                 <div class="faq-accordion" id="accordion">
@@ -216,13 +204,14 @@
                                     <div class="accordion-item wow fadeInUp">
                                         <h2 class="accordion-header" id="heading1">
                                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                                                <span>1.</span> Comment aménager une cuisine dans un petit appartement ?
+                                                <span>1.</span> Quel est le meilleur matériau pour un plan de travail de cuisine ?
                                             </button>
                                         </h2>
                                         <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
                                             <div class="accordion-body">
                                                 <p>
-                                                    Il est recommandé d’optimiser les rangements, d’utiliser des meubles adaptés et de privilégier une organisation fonctionnelle de l’espace.
+                                                    Le choix dépend de l’utilisation de la cuisine.
+                                                    Les matériaux comme la céramique, le quartz ou le HPL sont souvent privilégiés pour leur résistance.
                                                 </p>
                                             </div>
                                         </div>
@@ -233,13 +222,13 @@
                                     <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
                                         <h2 class="accordion-header" id="heading2">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                                <span>2.</span> Une petite cuisine peut-elle être moderne ?
+                                                <span>2.</span> Quels matériaux sont les plus résistants pour une cuisine ?
                                             </button>
                                         </h2>
                                         <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                                             <div class="accordion-body">
                                                 <p>
-                                                    Oui, même une cuisine compacte peut être conçue dans un style moderne avec des lignes épurées et des matériaux contemporains.
+                                                    Les surfaces comme la céramique, le quartz ou le granit offrent une excellente résistance aux rayures, à la chaleur et aux chocs.
                                                 </p>
                                             </div>
                                         </div>
@@ -250,13 +239,13 @@
                                     <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
                                         <h2 class="accordion-header" id="heading3">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                                <span>3.</span> Peut-on installer un îlot dans une petite cuisine ?
+                                                <span>3.</span> Les matériaux doivent-ils être adaptés au climat de La Réunion ?
                                             </button>
                                         </h2>
                                         <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
                                             <div class="accordion-body">
                                                 <p>
-                                                    Dans certains cas, un îlot compact ou une table escamotable peut être intégré si la circulation reste fluide.
+                                                    Oui. Les matériaux doivent être résistants à l’humidité et faciles à entretenir afin de garantir la durabilité de la cuisine.
                                                 </p>
                                             </div>
                                         </div>
@@ -267,13 +256,13 @@
                                     <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
                                         <h2 class="accordion-header" id="heading4">
                                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                                <span>4.</span> Comment obtenir un devis pour aménager une petite cuisine ?
+                                                <span>4.</span> Comment choisir les matériaux pour une cuisine sur mesure ?
                                             </button>
                                         </h2>
                                         <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
                                             <div class="accordion-body">
                                                 <p>
-                                                    Vous pouvez demander un devis directement en ligne <a href="{{ route('contact.page') }}">en cliquant ici</a>
+                                                    Il est conseillé de se faire accompagner par un cuisiniste afin de choisir les matériaux les plus adaptés à votre projet.
                                                 </p>
                                             </div>
                                         </div>
@@ -289,9 +278,7 @@
             </div>
         </div>
     </div>
-
 @endsection
-
 
 @section('scripts')
     @parent
